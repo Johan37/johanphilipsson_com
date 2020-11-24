@@ -246,6 +246,10 @@ header {
 /* FEATURE  */
 /*----------------------------------- */
 
+.section-feature {
+  margin-bottom: 150px;
+}
+
 .section-feature .long-copy {
   margin-bottom: 30px;
 }
@@ -255,12 +259,13 @@ header {
 /*----------------------------------- */
 
 .section-projects {
-  padding: 0;
+  margin-top: 30px;
+  background: #f5f5f5;
 }
 
 .projects-showcase {
   list-style: none;
-  width: 100%;
+  margin: 5%;
 }
 
 .projects-showcase li {
