@@ -12,11 +12,12 @@
     <header>
       <nav>
         <div class="row">
-          <ul class="main-nav">
+          <ul class="main-nav" id="my-main-nav">
             <li><a href="#">Tools</a></li>
             <li><a href="#">About Me</a></li>
             <li><a href="#">Projects</a></li>
             <li><a href="#">Contact</a></li>
+            <!-- <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a></li> -->
           </ul>
         </div>
       </nav>
@@ -121,5 +122,16 @@
         </p>
       </div>
     </footer>
+
+    <script>
+    function myFunction() {
+      var x = document.getElementById("my-main-nav");
+      if (x.className === "main-nav") {
+        x.className += " responsive";
+      } else {
+        x.className = "main-nav";
+      }
+    }
+    </script>
   </body>
 </html>
