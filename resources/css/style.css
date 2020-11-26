@@ -99,6 +99,7 @@ h3 {
 .icon-big {
   font-size: 350%;
   display: block;
+  text-align: center;
   color: #e67e22;
   margin-bottom: 10px;
 }
