@@ -11,14 +11,12 @@
   <body>
     <header>
       <nav>
-        <div class="row">
-          <ul class="main-nav" id="my-main-nav">
-            <li><a href="#">Tools</a></li>
-            <li><a href="#">About Me</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Contact</a></li>
-            <!-- <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a></li> -->
-          </ul>
+        <div class="topnav" id="myTopnav">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#contact">Projects</a>
+          <a href="#contact">Contact</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
         </div>
       </nav>
       <div class="hero-text-box">
@@ -117,11 +115,11 @@
 
     <script>
     function myFunction() {
-      var x = document.getElementById("my-main-nav");
-      if (x.className === "main-nav") {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
         x.className += " responsive";
       } else {
-        x.className = "main-nav";
+        x.className = "topnav";
       }
     }
     </script>
