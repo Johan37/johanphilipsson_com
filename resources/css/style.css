@@ -97,10 +97,9 @@ h3 {
 /* ---- ICONS ---- */
 
 .icon-big {
-  font-size: 350%;
+  font-size: 250%;
   display: block;
   text-align: center;
-  color: #e67e22;
   margin-bottom: 10px;
 }
 
@@ -289,7 +288,8 @@ header {
 /*----------------------------------- */
 
 .section-feature {
-  margin-bottom: 150px;
+  margin-bottom: 100px;
+  background: #f5f5f5;
 }
 
 .section-feature .long-copy {
@@ -302,7 +302,6 @@ header {
 
 .section-projects {
   margin-top: 30px;
-  background: #f5f5f5;
 }
 
 .projects-showcase {
@@ -366,6 +365,7 @@ header {
 .projects-showcase p {
   text-align: center;
 }
+
 /*----------------------------------- */
 /* ABOUT  */
 /*----------------------------------- */
@@ -378,38 +378,27 @@ header {
 }
 
 /*----------------------------------- */
-/* FOOTER  */
+/* CONTACT  */
 /*----------------------------------- */
 
-footer {
-  background-color: #333;
-  padding: 50px;
-  font-size: 80%;
-}
-
-.footer-nav {
-  list-style: none;
-  float: left;
+.section-about p {
 }
 
 .social-links {
   list-style: none;
-  float: right;
+  text-align: center;
+  margin-top: 20px;
 }
 
-.footer-nav li,
 .social-links li {
   display: inline-block;
   margin-right: 20px;
 }
 
-.footer-nav li:last-child,
 .social-links li:last-child {
   margin-right: 0px;
 }
 
-.footer-nav li a:link,
-.footer-nav li a:visited,
 .social-links li a:link,
 .social-links li a:visited {
   text-decoration: none;
@@ -418,9 +407,6 @@ footer {
   transition: color 0.2s;
 }
 
-
-.footer-nav li a:hover,
-.footer-nav li a:active,
 .social-links li a:hover,
 .social-links li a:active {
   color: #ddd;
@@ -452,6 +438,16 @@ footer {
 
 .ion-social-instagram:hover {
   color: #517fa4;
+}
+
+/*----------------------------------- */
+/* FOOTER  */
+/*----------------------------------- */
+
+footer {
+  background-color: #333;
+  padding: 50px;
+  font-size: 80%;
 }
 
 footer p {
