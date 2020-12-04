@@ -367,17 +367,6 @@ header {
 }
 
 /*----------------------------------- */
-/* ABOUT  */
-/*----------------------------------- */
-
-.section-about {
-  background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(images/back-about.JP);
-  background-size: cover;
-  color:#fff;
-  background-attachment: fixed;
-}
-
-/*----------------------------------- */
 /* CONTACT  */
 /*----------------------------------- */
 
